@@ -1,5 +1,9 @@
 // Import file variabili
 @import "@/styles/variables";
+// Big container
+.big-container {
+  width: 100%;
+}
 
 //header
 header {
@@ -9,6 +13,7 @@ header {
   position: absolute;
   top: 0;
   left: 0;
+  justify-content: space-between;
 
   .left {
     background-color: $primary-color;
@@ -26,8 +31,12 @@ header {
     .main-menu {
       list-style: none;
       margin: 0;
+      padding: 0;
+      width: 100%;
+
       .menu-item {
         margin-right: 55px;
+
         a {
           text-decoration: none;
           color: $third-color;
@@ -60,6 +69,44 @@ header {
     width: 35%;
     padding-left: 120px;
     background-color: $primary-color;
+    .container-subtitle {
+      margin-top: 300px;
+      .subtitle {
+        color: $third-color;
+        text-transform: uppercase;
+        font-size: 14px;
+        word-spacing: 3px;
+      }
+      .subtitle::before {
+        content: "";
+        width: 50px;
+        background-color: $third-color;
+        height: 1px;
+        display: inline-block;
+        margin-right: 50px;
+      }
+    }
+    .container-text {
+      margin-left: 100px;
+      width: 60%;
+      h1 {
+        font-family: $hero-font-title;
+        color: $secondary-color;
+        margin-top: 85px;
+        font-size: 90px;
+      }
+      p {
+        margin-top: 60px;
+        color: $third-color;
+        font-family: $primary-font;
+        font-size: 18px;
+        line-height: 30px;
+      }
+
+      .button-main {
+        margin-top: 60px;
+      }
+    }
   }
   .hero-right {
     width: 65%;

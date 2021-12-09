@@ -4,5 +4,35 @@
 header {
   font-family: $secondary-font;
   text-transform: capitalize;
-  color: $third-color;
+  width: 100%;
+  height: 80px;
+
+  .left {
+    background-color: $primary-color;
+    width: 30%;
+    padding: 50px 0 50px 120px;
+    .logo-header {
+      width: 307px;
+    }
+  }
+
+  .right {
+    background-color: red;
+    width: 70%;
+    padding: 50px 120px 50px 0px;
+    .main-menu {
+      list-style: none;
+      margin: 0;
+      .menu-item {
+        margin-right: 47px;
+        a {
+          text-decoration: none;
+          color: $third-color;
+        }
+        a:hover {
+          color: $secondary-color;
+        }
+      }
+    }
+  }
 }

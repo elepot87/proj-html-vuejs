@@ -8,13 +8,18 @@
           class="logo-header"
         />
       </div>
-      <div class="right d-flex justify-content-end align-items-center">
+      <div class="right d-flex justify-content-start align-items-center">
         <ul class="main-menu d-flex">
           <li class="menu-item"><a href="#">Home</a></li>
           <li class="menu-item"><a href="#">Culinary History</a></li>
           <li class="menu-item"><a href="#">Our Team</a></li>
           <li class="menu-item"><a href="#">Our Menu</a></li>
-          <li class="menu-item"><a href="#">Takeout</a></li>
+          <li class="menu-item">
+            <a href="#" class="d-flex"
+              >Takeout
+              <span class="badge bg-secondary">New</span>
+            </a>
+          </li>
           <li class="menu-item"><a href="#">Bulletin</a></li>
           <li class="menu-item"><a href="#">Reservations</a></li>
           <li class="menu-item">

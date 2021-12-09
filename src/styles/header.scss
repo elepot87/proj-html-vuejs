@@ -1,25 +1,27 @@
 // Import file variabili
 @import "@/styles/variables";
 
+//header
 header {
   font-family: $secondary-font;
   text-transform: capitalize;
   width: 100%;
-  height: 80px;
+  position: absolute;
+  top: 0;
+  left: 0;
 
   .left {
     background-color: $primary-color;
-    width: 30%;
-    padding: 50px 0 50px 120px;
+    width: 35%;
+    padding: 50px 0 50px 100px;
     .logo-header {
       width: 307px;
     }
   }
 
   .right {
-    background-color: red;
-    width: 70%;
-    padding: 50px 120px 50px 0px;
+    width: 65%;
+    padding: 50px 100px 50px 0px;
     .main-menu {
       list-style: none;
       margin: 0;
@@ -28,11 +30,35 @@ header {
         a {
           text-decoration: none;
           color: $third-color;
+          font-weight: $semibold;
         }
         a:hover {
           color: $secondary-color;
         }
       }
     }
+  }
+}
+
+// Hero
+.hero {
+  width: 100%;
+  height: 1200px;
+  .hero-left {
+    width: 35%;
+    padding-left: 120px;
+    background-color: $primary-color;
+  }
+  .hero-right {
+    width: 65%;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.7) 0%,
+        rgba(0, 0, 0, 0) 36%
+      ),
+      url(../assets/images/slider52x.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
   }
 }

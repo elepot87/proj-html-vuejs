@@ -1,2 +1,8 @@
 // Import file variabili
 @import "@/styles/variables";
+
+header {
+  font-family: $secondary-font;
+  text-transform: capitalize;
+  color: $third-color;
+}

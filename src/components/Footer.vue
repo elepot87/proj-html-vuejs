@@ -14,7 +14,7 @@
         <ul class="icon-list d-flex">
           <li
             class="icon-item"
-            v-for="(link, index) in footerIcons"
+            v-for="(link, index) in navFooterIcons"
             :key="`link-footer-icon-${index}`"
           >
             <a href="#"><i :class="link.nameIcon" class="icon-footer"></i></a>
@@ -46,31 +46,10 @@
 <script>
 export default {
   name: "Footer",
-  data() {
-    return {
-      footerIcons: [
-        {
-          nameIcon: "fab fa-facebook-f",
-          visibility: true,
-        },
-        {
-          nameIcon: "fab fa-twitter",
-          visibility: true,
-        },
-        {
-          nameIcon: "fab fa-youtube",
-          visibility: true,
-        },
-        {
-          nameIcon: "fab fa-instagram",
-          visibility: true,
-        },
-        {
-          nameIcon: "fab fa-linkedin-in",
-          visibility: true,
-        },
-      ],
-    };
+  props: {
+    navFooterIcons: {
+      type: Array,
+    },
   },
 };
 </script>

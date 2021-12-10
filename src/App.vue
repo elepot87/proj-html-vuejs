@@ -2,7 +2,7 @@
   <div id="app">
     <Header :navLinksNew="navLinks" />
     <Main />
-    <Footer />
+    <Footer :navFooterIcons="footerIcons" />
   </div>
 </template>
 
@@ -68,6 +68,28 @@ export default {
           url: "#",
           button: false,
           icon: true,
+        },
+      ],
+      footerIcons: [
+        {
+          nameIcon: "fab fa-facebook-f",
+          visibility: true,
+        },
+        {
+          nameIcon: "fab fa-twitter",
+          visibility: true,
+        },
+        {
+          nameIcon: "fab fa-youtube",
+          visibility: true,
+        },
+        {
+          nameIcon: "fab fa-instagram",
+          visibility: true,
+        },
+        {
+          nameIcon: "fab fa-linkedin-in",
+          visibility: true,
         },
       ],
     };

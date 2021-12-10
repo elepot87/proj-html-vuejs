@@ -21,7 +21,18 @@
           alt="signature-chef"
         />
       </div>
-      <div class="right col-6">prova</div>
+      <div class="right col-6">
+        <div
+          class="container-image d-flex justify-content-center align-items-end"
+        >
+          <!-- <img
+            :src="require(`@/assets/images/info22x.jpg`)"
+            alt="chef cucina"
+            class="img-chef"
+          /> -->
+          <div class="caption">california rolls - $22</div>
+        </div>
+      </div>
     </section>
   </main>
 </template>

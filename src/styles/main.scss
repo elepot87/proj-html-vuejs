@@ -5,7 +5,7 @@ main {
   .message-chef {
     padding: 200px 290px;
     .left {
-      padding: 0 90px;
+      padding: 50px 100px 30px 30px;
       .text1,
       .text2 {
         font-size: $paragraph-size;
@@ -22,6 +22,33 @@ main {
         margin-bottom: 40px;
         font-family: $hero-font-title;
         line-height: 90px;
+      }
+    }
+    .right {
+      .container-image {
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0) 86%,
+            rgba(3, 3, 3, 0.79) 100%
+          ),
+          url(../assets/images/info22x.jpg);
+        background-position: left top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 900px;
+        position: relative;
+        .caption {
+          color: $secondary-color;
+          text-transform: uppercase;
+          margin-bottom: 20px;
+          font-size: 12px;
+          letter-spacing: 2px;
+        }
+      }
+
+      .container-image:hover {
+        box-shadow: 0 3px 15px rgba(0, 0, 0, 0.4);
+        transform: scale(1.03);
+        transition: transform 0.35s ease-in-out;
       }
     }
   }

@@ -121,3 +121,36 @@ header {
     height: 100%;
   }
 }
+
+/****************************
+MEDIA QUERY
+****************************/
+
+@media screen and (max-width: 1600px) {
+  header {
+    .left {
+      width: 30%;
+    }
+    .right {
+      width: 70%;
+    }
+  }
+
+  .hero {
+    .hero-left {
+      width: 30%;
+      padding-left: 80px;
+      .container-text {
+        h1 {
+          font-size: 70px;
+        }
+        p {
+          font-size: 16px;
+        }
+      }
+    }
+    .hero-right {
+      width: 70%;
+    }
+  }
+}

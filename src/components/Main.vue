@@ -34,6 +34,41 @@
         </div>
       </div>
     </section>
+    <section class="features d-flex px-200">
+      <div class="col-left text-center">
+        <img :src="require(`@/assets/images/sushi-1.png`)" alt="icona sushi" />
+        <h3 class="title-feature">the best table in town</h3>
+        <div class="separator"></div>
+        <p class="text-feature">
+          Sed aenean egestas ut aliquam turpis mauris, molestie. Vitae tellus
+          tempor sem id tempus neque, tellus turpis turpis. Morbi tortor id
+          gravida.
+        </p>
+        <button class="button-secondary">explore the menu</button>
+      </div>
+      <div class="col-center text-center">
+        <img :src="require(`@/assets/images/sushi-2.png`)" alt="icona sushi" />
+        <h3 class="title-feature">perfect for groups</h3>
+        <div class="separator"></div>
+        <p class="text-feature">
+          Quam eu proin sit massa condimentum. Volutpat non pulvinar aliquet
+          nunc. Orci elementum in aliquet a gravida vivamus aliquam turpis
+          vitae.
+        </p>
+        <button class="button-secondary">make a reservation</button>
+      </div>
+      <div class="col-right text-center">
+        <img :src="require(`@/assets/images/sushi-3.png`)" alt="icona sushi" />
+        <h3 class="title-feature">fresh produce everyday</h3>
+        <div class="separator"></div>
+        <p class="text-feature">
+          Hendrerit amet, volutpat leo non, commodo maecenas scelerisque
+          tincidunt. Morbi vulputate morbi purus quisque sit sagittis orci
+          elementum.
+        </p>
+        <button class="button-secondary">learn more about us</button>
+      </div>
+    </section>
   </main>
 </template>
 

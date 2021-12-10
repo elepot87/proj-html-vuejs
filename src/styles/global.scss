@@ -31,3 +31,27 @@
   background-color: $secondary-color;
   color: $primary-color;
 }
+
+.button-secondary {
+  border: 1px solid $third-color;
+  background-color: $secondary-color;
+  text-transform: uppercase;
+  color: $primary-color;
+  font-family: $button-font;
+  font-size: $button-size;
+  width: 220px;
+  height: 40px;
+  line-height: 40px;
+}
+
+.button-secondary:hover {
+  border: 1px solid $primary-color;
+  background-color: $secondary-color;
+}
+
+// Spacing
+
+.px-200 {
+  padding-right: 200px;
+  padding-left: 200px;
+}

@@ -1,0 +1,28 @@
+//Importazione file variabili
+@import "@/styles/variables";
+
+main {
+  .message-chef {
+    padding: 200px 290px;
+    .left {
+      padding: 0 90px;
+      .text1,
+      .text2 {
+        font-size: $paragraph-size;
+        font-family: $primary-font;
+        margin-bottom: 40px;
+        .highlighted {
+          font-size: $paragraph-size;
+          font-family: $primary-font;
+          font-weight: $bold;
+        }
+      }
+      .title {
+        font-size: $title-section-big;
+        margin-bottom: 40px;
+        font-family: $hero-font-title;
+        line-height: 90px;
+      }
+    }
+  }
+}

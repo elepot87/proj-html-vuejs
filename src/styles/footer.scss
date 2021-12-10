@@ -51,4 +51,19 @@ footer {
       }
     }
   }
+  .copyright {
+    padding: 30px 0;
+    background-color: $primary-color;
+    color: $third-color;
+    font-family: $primary-font;
+    font-size: $copyright;
+    a {
+      text-decoration: none;
+      color: $secondary-color;
+      font-family: $primary-font;
+    }
+    a:hover {
+      color: $third-color;
+    }
+  }
 }

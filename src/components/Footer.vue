@@ -31,8 +31,10 @@
       </div>
     </section>
     <section class="copyright text-center">
-      © Copyright 2012 - 2021 | Avada Theme by ThemeFusion | All Rights Reserved
-      | Powered by WordPress
+      © Copyright 2012 - 2019 | Avada Theme by
+      <a href="#">ThemeFusion</a>
+      | All Rights Reserved | Powered by
+      <a href="#">WordPress</a>
     </section>
   </footer>
 </template>

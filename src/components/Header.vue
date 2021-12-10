@@ -15,7 +15,7 @@
         <ul class="main-menu d-flex">
           <li
             class="menu-item d-flex"
-            v-for="(link, index) in navLinks"
+            v-for="(link, index) in navLinksNew"
             :key="`link-${index}`"
           >
             <a :href="link.url"
@@ -74,59 +74,10 @@
 <script>
 export default {
   name: "Header",
-  data() {
-    return {
-      navLinks: [
-        {
-          text: "Home",
-          url: "#",
-          button: false,
-          icon: false,
-        },
-        {
-          text: "Culinary history",
-          url: "#",
-          button: false,
-          icon: false,
-        },
-        {
-          text: "Our Team",
-          url: "#",
-          button: false,
-          icon: false,
-        },
-        {
-          text: "Our Menu",
-          url: "#",
-          button: false,
-          icon: false,
-        },
-        {
-          text: "Takeout",
-          url: "#",
-          button: true,
-          icon: false,
-        },
-        {
-          text: "Bulletin",
-          url: "#",
-          button: false,
-          icon: false,
-        },
-        {
-          text: "Reservation",
-          url: "#",
-          button: false,
-          icon: false,
-        },
-        {
-          text: "",
-          url: "#",
-          button: false,
-          icon: true,
-        },
-      ],
-    };
+  props: {
+    navLinksNew: {
+      type: Array,
+    },
   },
 };
 </script>

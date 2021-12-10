@@ -23,6 +23,7 @@
               <span class="badge bg-secondary" v-if="link.button !== false"
                 >New</span
               >
+              <i class="fas fa-shopping-cart" v-if="link.icon !== false"></i>
             </a>
           </li>
           <!-- <li class="menu-item"><a href="#">Culinary History</a></li>
@@ -80,36 +81,49 @@ export default {
           text: "Home",
           url: "#",
           button: false,
+          icon: false,
         },
         {
           text: "Culinary history",
           url: "#",
           button: false,
+          icon: false,
         },
         {
           text: "Our Team",
           url: "#",
           button: false,
+          icon: false,
         },
         {
           text: "Our Menu",
           url: "#",
           button: false,
+          icon: false,
         },
         {
           text: "Takeout",
           url: "#",
           button: true,
+          icon: false,
         },
         {
           text: "Bulletin",
           url: "#",
           button: false,
+          icon: false,
         },
         {
           text: "Reservation",
           url: "#",
           button: false,
+          icon: false,
+        },
+        {
+          text: "",
+          url: "#",
+          button: false,
+          icon: true,
         },
       ],
     };

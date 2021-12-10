@@ -2,7 +2,7 @@
 @import "@/styles/variables";
 
 main {
-  // Section 1
+  // Section 1 Message Chef
   .message-chef {
     padding: 200px 290px 150px;
     .left {
@@ -53,7 +53,7 @@ main {
       }
     }
   }
-  //   Section 2
+  //   Section 2 Features
   .features {
     .col-left,
     .col-center,
@@ -76,6 +76,64 @@ main {
       font-size: $icon-text;
       font-family: $primary-font;
       margin: 30px 0;
+    }
+  }
+  //   Section 3 Image + CTA
+  .image-cta {
+    margin-top: 150px;
+    width: 100%;
+    height: 890px;
+    .image-cta-left {
+      width: 60%;
+      background-image: url(../assets/images/slider32x.jpg);
+      background-position: center top;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%;
+    }
+    .image-cta-right {
+      width: 40%;
+      background-color: $primary-color;
+      padding-left: 120px;
+      padding-right: 80px;
+      .container-subtitle {
+        margin-top: 200px;
+        .subtitle {
+          color: $third-color;
+          text-transform: uppercase;
+          font-size: 14px;
+          word-spacing: 3px;
+        }
+        .subtitle::before {
+          content: "";
+          width: 50px;
+          background-color: $third-color;
+          height: 1px;
+          display: inline-block;
+          margin-right: 50px;
+        }
+      }
+      .container-text {
+        margin-left: 100px;
+        width: 60%;
+        h1 {
+          font-family: $hero-font-title;
+          color: $secondary-color;
+          margin-top: 60px;
+          font-size: $title-section;
+        }
+        p {
+          margin-top: 60px;
+          color: $third-color;
+          font-family: $primary-font;
+          font-size: 18px;
+          line-height: 30px;
+        }
+
+        .button-main {
+          margin-top: 60px;
+        }
+      }
     }
   }
 }

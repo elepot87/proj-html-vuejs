@@ -1,5 +1,6 @@
 <template>
   <main>
+    <!-- Section 1 Messaggio chef -->
     <section class="message-chef d-flex">
       <div class="left col-6">
         <div class="text1">
@@ -34,6 +35,7 @@
         </div>
       </div>
     </section>
+    <!-- Section 2 Features -->
     <section class="features d-flex px-200">
       <div class="col-left text-center">
         <img :src="require(`@/assets/images/sushi-1.png`)" alt="icona sushi" />
@@ -67,6 +69,25 @@
           elementum.
         </p>
         <button class="button-secondary">learn more about us</button>
+      </div>
+    </section>
+    <!-- Section 3 Immagine+CTA-->
+    <section class="image-cta d-flex">
+      <div class="image-cta-left"></div>
+      <div class="image-cta-right">
+        <div class="container-subtitle d-flex align-items-center">
+          <div class="subtitle">
+            <span> fine dining exeprience </span>
+          </div>
+        </div>
+        <div class="container-text">
+          <h1>the best table in town</h1>
+          <p>
+            Pellentesque vitae viverra risus, sagittis. Venenatis ridiculus
+            scelerisque nisi in urna nulla.
+          </p>
+          <button class="button-main">explore the menu</button>
+        </div>
       </div>
     </section>
   </main>

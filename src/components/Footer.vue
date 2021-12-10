@@ -12,10 +12,14 @@
           nunc. Quam eu proin sit massa condimentum.
         </p>
         <ul class="icon-list d-flex">
-          <li class="icon-item">
-            <a href="#"><i class="fab fa-facebook-f icon-footer"></i></a>
+          <li
+            class="icon-item"
+            v-for="(link, index) in footerIcons"
+            :key="`link-footer-icon-${index}`"
+          >
+            <a href="#"><i :class="link.nameIcon" class="icon-footer"></i></a>
           </li>
-          <li class="icon-item">
+          <!-- <li class="icon-item">
             <a href="#"><i class="fab fa-twitter icon-footer"></i></a>
           </li>
           <li class="icon-item">
@@ -26,7 +30,7 @@
           </li>
           <li class="icon-item">
             <a href="#"><i class="fab fa-linkedin-in icon-footer"></i></a>
-          </li>
+          </li> -->
         </ul>
       </div>
     </section>
@@ -42,6 +46,32 @@
 <script>
 export default {
   name: "Footer",
+  data() {
+    return {
+      footerIcons: [
+        {
+          nameIcon: "fab fa-facebook-f",
+          visibility: true,
+        },
+        {
+          nameIcon: "fab fa-twitter",
+          visibility: true,
+        },
+        {
+          nameIcon: "fab fa-youtube",
+          visibility: true,
+        },
+        {
+          nameIcon: "fab fa-instagram",
+          visibility: true,
+        },
+        {
+          nameIcon: "fab fa-linkedin-in",
+          visibility: true,
+        },
+      ],
+    };
+  },
 };
 </script>
 

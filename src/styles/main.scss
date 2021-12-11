@@ -160,9 +160,9 @@ main {
         background-color: $primary-color;
         padding-left: 120px;
         padding-right: 80px;
-        .container-subtitle {
-          margin-top: 140px;
+        .container-text {
           .subtitle {
+            margin-top: 140px;
             color: $third-color;
             text-transform: uppercase;
             font-weight: $semibold;
@@ -170,8 +170,6 @@ main {
             word-spacing: 3px;
             letter-spacing: 2px;
           }
-        }
-        .container-text {
           width: 76%;
           h1 {
             font-family: $hero-font-title;

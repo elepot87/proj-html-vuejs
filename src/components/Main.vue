@@ -102,12 +102,8 @@
           />
         </div>
         <div class="col-right">
-          <div class="container-subtitle d-flex align-items-center">
-            <div class="subtitle">
-              <span> maggie stewart </span>
-            </div>
-          </div>
           <div class="container-text">
+            <div class="subtitle">maggie stewart</div>
             <h1>new york times</h1>
             <div class="container-icons-reviews">
               <i class="fas fa-star icon-reviews"></i>

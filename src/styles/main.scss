@@ -66,12 +66,12 @@ main {
       font-family: $hero-font-title;
       margin: 30px 0;
     }
-    .separator {
-      width: 50px;
-      height: 1px;
-      background-color: $third-color;
-      margin: 0 auto;
-    }
+    // .separator {
+    //   width: 50px;
+    //   height: 1px;
+    //   background-color: $third-color;
+    //   margin: 0 auto;
+    // }
     .text-feature {
       font-size: $icon-text;
       font-family: $primary-font;
@@ -133,6 +133,81 @@ main {
         .button-main {
           margin-top: 60px;
         }
+      }
+    }
+  }
+  // Section 4 Reviews
+  .reviews {
+    padding: 138px 290px;
+    .title {
+      font-family: $primary-font;
+      font-size: 46px;
+      font-style: italic;
+    }
+    // Review big
+    .review-big {
+      height: 837px;
+      .col-left {
+        width: 50%;
+
+        img {
+          width: 100%;
+          object-fit: cover;
+          height: 100%;
+        }
+      }
+      .col-right {
+        width: 50%;
+        background-color: $primary-color;
+        padding-left: 120px;
+        padding-right: 80px;
+        .container-subtitle {
+          margin-top: 140px;
+          .subtitle {
+            color: $third-color;
+            text-transform: uppercase;
+            font-weight: $semibold;
+            font-size: $subtitle-section-reviews;
+            word-spacing: 3px;
+            letter-spacing: 2px;
+          }
+        }
+        .container-text {
+          width: 76%;
+          h1 {
+            font-family: $hero-font-title;
+            color: $secondary-color;
+            margin: 50px 0;
+            font-size: $title-reviews;
+          }
+          .container-icons-reviews {
+            margin-bottom: 50px;
+            .icon-reviews {
+              color: $secondary-color;
+              margin-right: 10px;
+              font-size: $icon-reviews;
+            }
+          }
+          .text {
+            margin-top: 40px;
+            p {
+              margin-bottom: 20px;
+              color: $third-color;
+              font-family: $primary-font;
+              font-size: 18px;
+              line-height: 30px;
+            }
+          }
+
+          .button-main {
+            margin-top: 30px;
+          }
+        }
+      }
+      .col-right:hover {
+        transform: scale(1.03);
+        box-shadow: 0 3px 15px rgba(0, 0, 0, 0.4);
+        transition: transform 0.35s;
       }
     }
   }

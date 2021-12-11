@@ -90,6 +90,48 @@
         </div>
       </div>
     </section>
+    <!-- Section 4 Recensioni -->
+    <section class="reviews">
+      <h1 class="title text-center">What critics are saying about us</h1>
+      <div class="separator my-5"></div>
+      <div class="review-big d-flex">
+        <div class="col-left">
+          <img
+            :src="require(`@/assets/images/blog72x.jpg`)"
+            alt="recensione1"
+          />
+        </div>
+        <div class="col-right">
+          <div class="container-subtitle d-flex align-items-center">
+            <div class="subtitle">
+              <span> maggie stewart </span>
+            </div>
+          </div>
+          <div class="container-text">
+            <h1>new york times</h1>
+            <div class="container-icons-reviews">
+              <i class="fas fa-star icon-reviews"></i>
+              <i class="fas fa-star icon-reviews"></i>
+              <i class="fas fa-star icon-reviews"></i>
+              <i class="fas fa-star icon-reviews"></i>
+              <i class="fas fa-star icon-reviews"></i>
+            </div>
+            <div class="separator-reviews"></div>
+            <div class="text">
+              <p>
+                Non arcu mauris tortor ultrices mollis tellus euismod fermentum.
+                Habitant amet tincidunt id sapien accumsan sed at.
+              </p>
+              <p>
+                Mmalesuada ullamcorper amet. Pretium pretium dignissim nisi.
+              </p>
+            </div>
+
+            <button class="button-main">read full article</button>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 </template>
 

@@ -37,6 +37,7 @@ main {
         background-size: cover;
         height: 900px;
         position: relative;
+        transition: transform 0.35s ease-in-out;
         .caption {
           color: $secondary-color;
           text-transform: uppercase;
@@ -45,11 +46,9 @@ main {
           letter-spacing: 2px;
         }
       }
-
       .container-image:hover {
         box-shadow: 0 3px 15px rgba(0, 0, 0, 0.4);
         transform: scale(1.03);
-        transition: transform 0.35s ease-in-out;
       }
     }
   }
@@ -160,6 +159,7 @@ main {
         background-color: $primary-color;
         padding-left: 120px;
         padding-right: 80px;
+        transition: transform 0.35s ease-in-out;
         .container-text {
           .subtitle {
             margin-top: 140px;
@@ -195,7 +195,6 @@ main {
               line-height: 30px;
             }
           }
-
           .button-main {
             margin-top: 30px;
           }
@@ -204,7 +203,6 @@ main {
       .col-right:hover {
         transform: scale(1.03);
         box-shadow: 0 3px 15px rgba(0, 0, 0, 0.4);
-        transition: transform 0.35s;
       }
     }
     // Review small
@@ -310,12 +308,13 @@ main {
       font-style: italic;
     }
     .wrapper-news-promotions {
-      height: 755px;
+      height: 730px;
       .col-left,
       .col-center,
       .col-right {
         width: 30%;
       }
+      // Colonna sx
       .col-left {
         margin-right: 3.33%;
         background-image: linear-gradient(
@@ -336,6 +335,7 @@ main {
           bottom: 0;
           left: 0;
           right: 0;
+          transition: all 0.2s ease-in-out;
         }
         .content-reveal-wrapper {
           background-image: linear-gradient(
@@ -356,26 +356,45 @@ main {
           height: 100%;
           line-height: normal;
           text-align: center;
+          transition: opacity 0.2s, transform 0.35s ease-in-out;
           .content-reveal {
             padding: 10px;
             width: 90%;
             color: $secondary-color;
+            .title {
+              font-family: $hero-font-title;
+              font-style: normal;
+              font-size: $title-news-hover;
+              margin: 15px 0;
+            }
+            .category {
+              font-family: $primary-font;
+              font-size: $category-news-hover;
+              text-transform: capitalize;
+            }
           }
         }
       }
-      .col-left:hover .info {
-        transition: all 0.3s ease;
-        transform: translateY(105%);
-      }
-      .col-left:hover .content-reveal-wrapper {
-        opacity: 1;
-        transform: translateX(0);
-      }
+      // Colonna centrale
       .col-center {
         margin-right: 3.33%;
       }
+      // Colonna dx
       .col-right {
         margin-left: 3.33%;
+      }
+      // Effetti hover
+      .col-left:hover .info,
+      .col-center:hover .info,
+      .col-right:hover .info {
+        transition: all 0.3s ease;
+        transform: translateY(105%);
+      }
+      .col-left:hover .content-reveal-wrapper,
+      .col-center:hover .content-reveal-wrapper,
+      .col-right:hover .content-reveal-wrapper {
+        opacity: 1;
+        transform: translateX(0);
       }
     }
   }

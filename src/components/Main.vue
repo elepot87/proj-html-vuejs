@@ -192,12 +192,45 @@
               <div class="category">news</div>
             </div>
           </div>
-          <div class="info text-center">the best cooffe in town</div>
+          <div class="info text-center">
+            <div class="title-news">the best cooffe in town</div>
+            <div class="info-news">
+              By admin | January 7th, 2020 | Categories: News
+            </div>
+          </div>
         </div>
         <!-- Col center -->
-        <div class="col-center">prova</div>
+        <div class="col-center">
+          <div class="content-reveal-wrapper">
+            <div class="content-reveal">
+              <i class="fas fa-link"></i>
+              <div class="title">discover our new menu</div>
+              <div class="category">news</div>
+            </div>
+          </div>
+          <div class="info text-center">
+            <div class="title-news">discover our new menu</div>
+            <div class="info-news">
+              By admin | January 7th, 2020 | Categories: News
+            </div>
+          </div>
+        </div>
         <!-- Col dx -->
-        <div class="col-right">prova</div>
+        <div class="col-right">
+          <div class="content-reveal-wrapper">
+            <div class="content-reveal">
+              <i class="fas fa-link"></i>
+              <div class="title">we now accept square!</div>
+              <div class="category">news</div>
+            </div>
+          </div>
+          <div class="info text-center">
+            <div class="title-news">we now accept square!</div>
+            <div class="info-news">
+              By admin | January 7th, 2020 | Categories: News
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   </main>

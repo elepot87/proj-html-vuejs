@@ -308,21 +308,12 @@ main {
       font-style: italic;
     }
     .wrapper-news-promotions {
-      height: 730px;
+      height: 800px;
+      // Stili comuni alle 3 colonne
       .col-left,
       .col-center,
       .col-right {
         width: 30%;
-      }
-      // Colonna sx
-      .col-left {
-        margin-right: 3.33%;
-        background-image: linear-gradient(
-            to top,
-            rgba(3, 3, 3, 0) 0,
-            rgba(3, 3, 3, 0.85) 100%
-          ),
-          url(../assets/images/blog92x.jpg);
         background-size: cover;
         background-position: center center;
         overflow: hidden;
@@ -336,6 +327,15 @@ main {
           left: 0;
           right: 0;
           transition: all 0.2s ease-in-out;
+          .title-news {
+            font-size: $title-news;
+            font-family: $hero-font-title;
+            margin-bottom: 15px;
+          }
+          .info-news {
+            font-family: $primary-font;
+            font-size: $info-news;
+          }
         }
         .content-reveal-wrapper {
           background-image: linear-gradient(
@@ -375,14 +375,22 @@ main {
           }
         }
       }
+      // Colonna sx
+      .col-left {
+        margin-right: 3.33%;
+        background-image: url(../assets/images/blog92x.jpg);
+      }
       // Colonna centrale
       .col-center {
         margin-right: 3.33%;
+        background-image: url(../assets/images/blog72x.jpg);
       }
       // Colonna dx
       .col-right {
         margin-left: 3.33%;
+        background-image: url(../assets/images/blog82x.jpg);
       }
+
       // Effetti hover
       .col-left:hover .info,
       .col-center:hover .info,

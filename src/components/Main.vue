@@ -131,6 +131,50 @@
           </div>
         </div>
       </div>
+      <div class="reviews-small d-flex gx-5">
+        <div class="col-left d-flex align-items-center justify-content-center">
+          <div class="container-text">
+            <div class="subtitle">mary maxey</div>
+            <h1>the guardian</h1>
+            <div class="container-icons-reviews">
+              <i class="fas fa-star icon-reviews"></i>
+              <i class="fas fa-star icon-reviews"></i>
+              <i class="fas fa-star icon-reviews"></i>
+              <i class="fas fa-star icon-reviews"></i>
+              <i class="fas fa-star icon-reviews"></i>
+            </div>
+            <div class="separator-reviews"></div>
+            <div class="text">
+              <p>
+                Non arcu mauris tortor ultrices mollis tellus euismod fermentum.
+                Habitant amet tincidunt id sapien accumsan sed.
+              </p>
+            </div>
+            <button class="button-transparent">read full article</button>
+          </div>
+        </div>
+        <div class="col-right d-flex align-items-center justify-content-center">
+          <div class="container-text">
+            <div class="subtitle">patrick monroe</div>
+            <h1>globe and mail</h1>
+            <div class="container-icons-reviews">
+              <i class="fas fa-star icon-reviews"></i>
+              <i class="fas fa-star icon-reviews"></i>
+              <i class="fas fa-star icon-reviews"></i>
+              <i class="fas fa-star icon-reviews"></i>
+              <i class="fas fa-star icon-reviews"></i>
+            </div>
+            <div class="separator-reviews"></div>
+            <div class="text">
+              <p>
+                Vivamus magna justo, lacinia eget consectetur sed, convallis at
+                tellus. Nulla porttitor accumsan tincidunt.
+              </p>
+            </div>
+            <button class="button-transparent">read full article</button>
+          </div>
+        </div>
+      </div>
     </section>
   </main>
 </template>

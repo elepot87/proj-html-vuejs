@@ -49,6 +49,23 @@
   background-color: $secondary-color;
 }
 
+.button-transparent {
+  border: 1px solid $secondary-color;
+  background-color: transparent;
+  text-transform: uppercase;
+  color: $secondary-color;
+  font-family: $button-font;
+  font-size: $button-size;
+  width: 220px;
+  height: 40px;
+  line-height: 40px;
+}
+
+.button-transparent:hover {
+  border: 1px solid $primary-color;
+  background-color: $primary-color;
+}
+
 // Spacing
 
 .px-200 {

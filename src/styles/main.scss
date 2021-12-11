@@ -149,7 +149,6 @@ main {
       height: 837px;
       .col-left {
         width: 50%;
-
         img {
           width: 100%;
           object-fit: cover;
@@ -209,6 +208,77 @@ main {
         box-shadow: 0 3px 15px rgba(0, 0, 0, 0.4);
         transition: transform 0.35s;
       }
+    }
+  }
+  .reviews-small {
+    margin-top: 50px;
+    height: 745px;
+    .col-left,
+    .col-right {
+      .container-text {
+        width: 52%;
+        .subtitle {
+          color: $third-color;
+          text-transform: uppercase;
+          font-weight: $semibold;
+          font-size: $subtitle-section-reviews;
+          word-spacing: 3px;
+          letter-spacing: 2px;
+        }
+        h1 {
+          font-family: $hero-font-title;
+          color: $secondary-color;
+          margin: 50px 0;
+          font-size: $title-reviews;
+        }
+        .container-icons-reviews {
+          margin-bottom: 50px;
+          .icon-reviews {
+            color: $secondary-color;
+            margin-right: 10px;
+            font-size: $icon-reviews;
+          }
+        }
+        .text {
+          margin-top: 40px;
+          p {
+            margin-bottom: 20px;
+            color: $secondary-color;
+            font-family: $primary-font;
+            font-size: 18px;
+            line-height: 30px;
+          }
+        }
+        .button-transparent {
+          margin-top: 30px;
+        }
+      }
+    }
+    .col-left {
+      width: 47%;
+      margin-right: 3%;
+      background-image: linear-gradient(
+          rgb(3, 3, 3) 17%,
+          rgba(3, 3, 3, 0.2) 100%
+        ),
+        url(../assets/images/info52x.jpg);
+      background-position: center top;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color: rgb(3, 3, 3);
+    }
+    .col-right {
+      width: 47%;
+      margin-left: 3%;
+      background-image: linear-gradient(
+          rgb(3, 3, 3) 17%,
+          rgba(3, 3, 3, 0.2) 100%
+        ),
+        url(../assets/images/info12x.jpg);
+      background-position: center top;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color: rgb(3, 3, 3);
     }
   }
 }

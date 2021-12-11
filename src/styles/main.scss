@@ -382,7 +382,8 @@ main {
       }
       // Colonna centrale
       .col-center {
-        margin-right: 3.33%;
+        margin-right: 1.66%;
+        margin-left: 1.66%;
         background-image: url(../assets/images/blog72x.jpg);
       }
       // Colonna dx
@@ -390,7 +391,6 @@ main {
         margin-left: 3.33%;
         background-image: url(../assets/images/blog82x.jpg);
       }
-
       // Effetti hover
       .col-left:hover .info,
       .col-center:hover .info,

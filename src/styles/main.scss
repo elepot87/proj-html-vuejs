@@ -41,7 +41,7 @@ main {
           color: $secondary-color;
           text-transform: uppercase;
           margin-bottom: 20px;
-          font-size: 12px;
+          font-size: $caption-small;
           letter-spacing: 2px;
         }
       }
@@ -207,76 +207,99 @@ main {
         transition: transform 0.35s;
       }
     }
-  }
-  .reviews-small {
-    margin-top: 50px;
-    height: 745px;
-    .col-left,
-    .col-right {
-      .container-text {
-        width: 52%;
-        .subtitle {
-          color: $third-color;
-          text-transform: uppercase;
-          font-weight: $semibold;
-          font-size: $subtitle-section-reviews;
-          word-spacing: 3px;
-          letter-spacing: 2px;
-        }
-        h1 {
-          font-family: $hero-font-title;
-          color: $secondary-color;
-          margin: 20px 0;
-          font-size: $title-reviews;
-        }
-        .container-icons-reviews {
-          margin-bottom: 50px;
-          .icon-reviews {
-            color: $secondary-color;
-            margin-right: 10px;
-            font-size: $icon-reviews;
+    // Review small
+    .reviews-small {
+      margin-top: 50px;
+      height: 745px;
+      .col-left,
+      .col-right {
+        .container-text {
+          width: 52%;
+          .subtitle {
+            color: $third-color;
+            text-transform: uppercase;
+            font-weight: $semibold;
+            font-size: $subtitle-section-reviews;
+            word-spacing: 3px;
+            letter-spacing: 2px;
           }
-        }
-        .text {
-          margin-top: 40px;
-          p {
-            margin-bottom: 20px;
+          h1 {
+            font-family: $hero-font-title;
             color: $secondary-color;
-            font-family: $primary-font;
-            font-size: 18px;
-            line-height: 30px;
+            margin: 20px 0;
+            font-size: $title-reviews;
           }
-        }
-        .button-transparent {
-          margin-top: 30px;
+          .container-icons-reviews {
+            margin-bottom: 50px;
+            .icon-reviews {
+              color: $secondary-color;
+              margin-right: 10px;
+              font-size: $icon-reviews;
+            }
+          }
+          .text {
+            margin-top: 40px;
+            p {
+              margin-bottom: 20px;
+              color: $secondary-color;
+              font-family: $primary-font;
+              font-size: 18px;
+              line-height: 30px;
+            }
+          }
+          .button-transparent {
+            margin-top: 30px;
+          }
         }
       }
+      .col-left {
+        width: 47%;
+        margin-right: 3%;
+        background-image: linear-gradient(
+            rgb(3, 3, 3) 17%,
+            rgba(3, 3, 3, 0.2) 100%
+          ),
+          url(../assets/images/info52x.jpg);
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: rgb(3, 3, 3);
+      }
+      .col-right {
+        width: 47%;
+        margin-left: 3%;
+        background-image: linear-gradient(
+            rgb(3, 3, 3) 17%,
+            rgba(3, 3, 3, 0.2) 100%
+          ),
+          url(../assets/images/info12x.jpg);
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: rgb(3, 3, 3);
+      }
     }
-    .col-left {
-      width: 47%;
-      margin-right: 3%;
-      background-image: linear-gradient(
-          rgb(3, 3, 3) 17%,
-          rgba(3, 3, 3, 0.2) 100%
-        ),
-        url(../assets/images/info52x.jpg);
-      background-position: center top;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-color: rgb(3, 3, 3);
-    }
-    .col-right {
-      width: 47%;
-      margin-left: 3%;
-      background-image: linear-gradient(
-          rgb(3, 3, 3) 17%,
-          rgba(3, 3, 3, 0.2) 100%
-        ),
-        url(../assets/images/info12x.jpg);
-      background-position: center top;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-color: rgb(3, 3, 3);
+  }
+
+  // Section 5 Immagine full width
+  .img-full-width {
+    height: 695px;
+    width: 100%;
+    background-image: linear-gradient(
+        rgba(3, 3, 3, 0) 78%,
+        rgba(3, 3, 3, 0.6) 100%
+      ),
+      url(../assets/images/page52x.jpg);
+    background-color: rgba(255, 255, 255, 0);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .caption {
+      color: $secondary-color;
+      text-transform: uppercase;
+      margin-bottom: 30px;
+      font-size: $caption-big;
+      letter-spacing: 2px;
     }
   }
 }

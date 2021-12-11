@@ -172,6 +172,12 @@
         </div>
       </div>
     </section>
+    <!-- Sezione 5 Immagine full width -->
+    <section
+      class="img-full-width d-flex justify-content-center align-items-end"
+    >
+      <div class="caption">kung pao chicken - $32</div>
+    </section>
   </main>
 </template>
 

@@ -326,7 +326,7 @@ main {
           bottom: 0;
           left: 0;
           right: 0;
-          transition: all 0.2s ease-in-out;
+          transition: all 0.35s ease-in-out;
           .title-news {
             font-size: $title-news;
             font-family: $hero-font-title;
@@ -347,14 +347,14 @@ main {
           align-items: center;
           justify-content: space-around;
           opacity: 0;
-          position: absolute;
-          top: 0;
-          right: 0;
-          bottom: 0;
-          left: 0;
+          // position: absolute;
+          // top: 0;
+          // right: 0;
+          // bottom: 0;
+          // left: 0;
           width: 100%;
           height: 100%;
-          line-height: normal;
+          // line-height: normal;
           text-align: center;
           transition: opacity 0.2s, transform 0.35s ease-in-out;
           .content-reveal {
@@ -395,14 +395,13 @@ main {
       .col-left:hover .info,
       .col-center:hover .info,
       .col-right:hover .info {
-        transition: all 0.3s ease;
         transform: translateY(105%);
       }
       .col-left:hover .content-reveal-wrapper,
       .col-center:hover .content-reveal-wrapper,
       .col-right:hover .content-reveal-wrapper {
         opacity: 1;
-        transform: translateX(0);
+        // transform: translateX(0);
       }
     }
   }

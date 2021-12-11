@@ -127,7 +127,7 @@
           </div>
         </div>
       </div>
-      <div class="reviews-small d-flex gx-5">
+      <div class="reviews-small d-flex">
         <div class="col-left d-flex align-items-center justify-content-center">
           <div class="container-text">
             <div class="subtitle">mary maxey</div>
@@ -177,6 +177,28 @@
       class="img-full-width d-flex justify-content-center align-items-end"
     >
       <div class="caption">kung pao chicken - $32</div>
+    </section>
+    <!-- Section 6 News & Promotion -->
+    <section class="news-promotions">
+      <h1 class="title text-center">Latest news &amp; promotions</h1>
+      <div class="separator my-5"></div>
+      <div class="wrapper-news-promotions d-flex">
+        <!-- Col sx -->
+        <div class="col-left">
+          <div class="content-reveal-wrapper">
+            <div class="content-reveal">
+              <i class="fas fa-link"></i>
+              <div class="title">the best coffee in town</div>
+              <div class="category">news</div>
+            </div>
+          </div>
+          <div class="info text-center">the best cooffe in town</div>
+        </div>
+        <!-- Col center -->
+        <div class="col-center">prova</div>
+        <!-- Col dx -->
+        <div class="col-right">prova</div>
+      </div>
     </section>
   </main>
 </template>

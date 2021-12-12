@@ -299,7 +299,7 @@ main {
       letter-spacing: 2px;
     }
   }
-  // Sexction 6 News & Promotions
+  // Section 6 News & Promotions
   .news-promotions {
     padding: 138px 290px;
     .title {
@@ -402,6 +402,24 @@ main {
       .col-right:hover .content-reveal-wrapper {
         opacity: 1;
         // transform: translateX(0);
+      }
+    }
+  }
+  // Section Takeout
+  .takeout {
+    .image-cta {
+      .image-cta-left {
+        width: 60%;
+        background-image: url(../assets/images/slider72x-scaled.jpg);
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+      }
+      .image-cta-right {
+        .button-main {
+          width: 250px;
+        }
       }
     }
   }

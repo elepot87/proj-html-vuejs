@@ -233,6 +233,30 @@
         </div>
       </div>
     </section>
+    <!-- Sezione Take out -->
+    <section class="takeout">
+      <section class="image-cta d-flex">
+        <div class="image-cta-left"></div>
+        <div class="image-cta-right">
+          <div class="container-subtitle d-flex align-items-center">
+            <div class="subtitle">
+              <span> enjoy your meal at home </span>
+            </div>
+          </div>
+          <div class="container-text">
+            <h1>takeout now available</h1>
+            <p>
+              Pellentesque vitae viverra risus, sagittis. Venenatis ridiculus
+              scelerisque nisi in urna nulla.
+            </p>
+            <button class="button-main">
+              <i class="fas fa-car mx-2"></i>
+              view take out menu
+            </button>
+          </div>
+        </div>
+      </section>
+    </section>
   </main>
 </template>
 

@@ -267,7 +267,7 @@
           <!-- Menu item -->
           <li class="menu-item">
             <div class="main-info">
-              <h4 class="plate-name">AHI SALMON NIGIRI</h4>
+              <h4 class="plate-name">ahi salmon nigiri</h4>
               <div class="price">$48</div>
             </div>
             <p class="description">
@@ -309,7 +309,54 @@
         </ul>
       </div>
       <!-- Col center -->
-      <div class="col-center">prova</div>
+      <div class="col-center">
+        <h3 class="title-menu">main course</h3>
+        <!-- Lista piatti -->
+        <ul class="menu-list">
+          <!-- Menu item -->
+          <li class="menu-item">
+            <div class="main-info">
+              <h4 class="plate-name">braised abalone</h4>
+              <div class="price">$52</div>
+            </div>
+            <p class="description">
+              Mollis ornare sit sapien, sodales. Cursus duis proin semper
+              quisque.
+            </p>
+          </li>
+          <!-- Menu item -->
+          <li class="menu-item">
+            <div class="main-info">
+              <h4 class="plate-name">twice cooked pork</h4>
+              <div class="price">$21</div>
+            </div>
+            <p class="description">
+              Ac vel, risus ornare senectus placerat duis amet dictumst tellus.
+            </p>
+          </li>
+          <!-- Menu item -->
+          <li class="menu-item">
+            <div class="main-info">
+              <h4 class="plate-name">kung pao chicken</h4>
+              <div class="price">$32</div>
+            </div>
+            <p class="description">
+              Quis duis sit dictum aliquam a velit enim. Tellus in sit augue
+              aliquam.
+            </p>
+          </li>
+          <!-- Menu item -->
+          <li class="menu-item">
+            <div class="main-info">
+              <h4 class="plate-name">char siu &amp; sushis</h4>
+              <div class="price">$48</div>
+            </div>
+            <p class="description">
+              Feugiat rhoncus ipsum tristique purus diam, et dolor molestie.
+            </p>
+          </li>
+        </ul>
+      </div>
       <!-- Col-right -->
       <div class="col-right">
         <h3 class="title-menu">desserts</h3>

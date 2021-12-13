@@ -259,7 +259,21 @@
     </section>
     <!-- Section 8 Menu -->
     <section class="menu d-flex">
-      <div class="col-left">prova</div>
+      <div class="col-left">
+        <h3 class="title-menu">HORS D’OEUVRES</h3>
+        <ul class="menu-list">
+          <li class="menu-item">
+            <div class="main-info">
+              <h4 class="plate-name">AHI SALMON NIGIRI</h4>
+              <div class="price">$48</div>
+            </div>
+            <p class="description">
+              Eget vulputate vitae quis rutrum blandit sed. Quam nulla sit
+              lacinia.
+            </p>
+          </li>
+        </ul>
+      </div>
       <div class="col-center">prova</div>
       <div class="col-right">prova</div>
     </section>

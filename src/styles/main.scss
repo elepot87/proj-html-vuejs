@@ -432,10 +432,45 @@ main {
     .col-center,
     .col-right {
       width: calc(100% / 3);
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      padding: 80px 105px;
+      .title-menu {
+        font-size: $title-menu;
+        font-family: $hero-font-title;
+        margin-bottom: 70px;
+      }
+      .menu-list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        .menu-item {
+          margin-bottom: 30px;
+          .main-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .plate-name {
+              font-size: $plate-name;
+              font-family: $hero-font-title;
+            }
+            .price {
+              font-family: $button-font;
+              font-size: $price;
+              font-weight: $semibold;
+            }
+          }
+          .description {
+            font-family: $primary-font;
+            font-size: $description-menu;
+          }
+        }
+      }
     }
     .col-left,
     .col-right {
-      background-color: $third-color;
+      background-color: $sfondo-menu;
     }
     .col-center {
       background-image: linear-gradient(

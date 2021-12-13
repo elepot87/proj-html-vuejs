@@ -406,6 +406,8 @@
         </ul>
       </div>
     </section>
+    <!-- Section 9 Piatto in evidenza -->
+    <section class="highlight-plate"></section>
   </main>
 </template>
 

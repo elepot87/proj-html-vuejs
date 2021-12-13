@@ -427,7 +427,7 @@ main {
   // Section Menu
   .menu {
     padding: 190px 115px;
-    height: 1410px;
+    height: 1400px;
     .col-left,
     .col-center,
     .col-right {
@@ -489,5 +489,14 @@ main {
       bottom: 50px;
       color: $secondary-color;
     }
+  }
+  // Section Piatto in evidenza
+  .highlight-plate {
+    background-color: rgba(255, 255, 255, 0);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../assets/images/hero42x.jpg);
+    height: 950px;
   }
 }

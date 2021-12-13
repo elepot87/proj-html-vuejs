@@ -187,7 +187,9 @@
         <div class="col-left">
           <div class="content-reveal-wrapper">
             <div class="content-reveal">
-              <i class="fas fa-link"></i>
+              <a href="#">
+                <i class="fas fa-link"></i>
+              </a>
               <div class="title">the best coffee in town</div>
               <div class="category">news</div>
             </div>
@@ -203,7 +205,9 @@
         <div class="col-center">
           <div class="content-reveal-wrapper">
             <div class="content-reveal">
-              <i class="fas fa-link"></i>
+              <a href="#">
+                <i class="fas fa-link"></i>
+              </a>
               <div class="title">discover our new menu</div>
               <div class="category">news</div>
             </div>
@@ -219,7 +223,9 @@
         <div class="col-right">
           <div class="content-reveal-wrapper">
             <div class="content-reveal">
-              <i class="fas fa-link"></i>
+              <a href="#">
+                <i class="fas fa-link"></i>
+              </a>
               <div class="title">we now accept square!</div>
               <div class="category">news</div>
             </div>

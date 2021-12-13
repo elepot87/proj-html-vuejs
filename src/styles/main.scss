@@ -355,6 +355,9 @@ main {
             padding: 10px;
             width: 90%;
             color: $secondary-color;
+            a {
+              color: $secondary-color;
+            }
             .title {
               font-family: $hero-font-title;
               font-style: normal;

@@ -498,5 +498,37 @@ main {
     background-size: cover;
     background-image: url(../assets/images/hero42x.jpg);
     height: 950px;
+    padding: 136px 270px 0;
+    .container-info {
+      background-color: $primary-color;
+      flex-direction: column;
+      width: 36%;
+      padding: 90px;
+      color: $secondary-color;
+      .info-plate {
+        justify-content: space-between;
+        align-items: center;
+        .name-plate {
+          font-size: $highlighted-plate;
+          font-family: $hero-font-title;
+          width: 75%;
+        }
+        .price {
+          font-family: $button-font;
+        }
+      }
+      .separator {
+        margin: 50px 0;
+      }
+      .description-plate {
+        font-size: $description-menu;
+        font-family: $primary-font;
+        color: $third-color;
+        margin-bottom: 50px;
+      }
+      .button-main {
+        margin-bottom: 20px;
+      }
+    }
   }
 }

@@ -407,7 +407,20 @@
       </div>
     </section>
     <!-- Section 9 Piatto in evidenza -->
-    <section class="highlight-plate"></section>
+    <section class="highlight-plate">
+      <div class="container-info d-flex justify-content-center">
+        <div class="info-plate d-flex">
+          <h3 class="name-plate">braised alone</h3>
+          <div class="price">$52</div>
+        </div>
+        <div class="separator"></div>
+        <p class="description-plate">
+          Pretium accumsan porttitor viverra leo gravida mollis imperdiet.
+          Fringilla nibh pharetra sociis leo amet.
+        </p>
+        <button class="button-main">view in the menu</button>
+      </div>
+    </section>
   </main>
 </template>
 

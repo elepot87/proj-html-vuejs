@@ -259,9 +259,45 @@
     </section>
     <!-- Section 8 Menu -->
     <section class="menu d-flex">
+      <!-- Col sx -->
       <div class="col-left">
         <h3 class="title-menu">HORS D’OEUVRES</h3>
+        <!-- Lista piatti -->
         <ul class="menu-list">
+          <!-- Menu item -->
+          <li class="menu-item">
+            <div class="main-info">
+              <h4 class="plate-name">AHI SALMON NIGIRI</h4>
+              <div class="price">$48</div>
+            </div>
+            <p class="description">
+              Eget vulputate vitae quis rutrum blandit sed. Quam nulla sit
+              lacinia.
+            </p>
+          </li>
+          <!-- Menu item -->
+          <li class="menu-item">
+            <div class="main-info">
+              <h4 class="plate-name">AHI SALMON NIGIRI</h4>
+              <div class="price">$48</div>
+            </div>
+            <p class="description">
+              Eget vulputate vitae quis rutrum blandit sed. Quam nulla sit
+              lacinia.
+            </p>
+          </li>
+          <!-- Menu item -->
+          <li class="menu-item">
+            <div class="main-info">
+              <h4 class="plate-name">AHI SALMON NIGIRI</h4>
+              <div class="price">$48</div>
+            </div>
+            <p class="description">
+              Eget vulputate vitae quis rutrum blandit sed. Quam nulla sit
+              lacinia.
+            </p>
+          </li>
+          <!-- Menu item -->
           <li class="menu-item">
             <div class="main-info">
               <h4 class="plate-name">AHI SALMON NIGIRI</h4>
@@ -274,7 +310,9 @@
           </li>
         </ul>
       </div>
+      <!-- Col center -->
       <div class="col-center">prova</div>
+      <!-- Col-right -->
       <div class="col-right">prova</div>
     </section>
   </main>

@@ -1,5 +1,6 @@
 <template>
   <footer>
+    <!-- Footer main -->
     <section class="footer-main">
       <div class="info-footer d-flex justify-content-center align-items-center">
         <img
@@ -34,6 +35,7 @@
         </ul>
       </div>
     </section>
+    <!-- Barra dei copyright -->
     <section class="copyright text-center">
       © Copyright 2012 - 2019 | Avada Theme by
       <a href="#">ThemeFusion</a>

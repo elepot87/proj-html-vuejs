@@ -60,13 +60,7 @@
           <button class="button-main">explore the menu</button>
         </div>
       </div>
-      <div class="hero-right">
-        <!-- <img
-          :src="require(`@/assets/images/slider52x.jpg`)"
-          alt="sfondo-hero"
-          class="img-hero"
-        /> -->
-      </div>
+      <div class="hero-right"></div>
     </section>
   </div>
 </template>

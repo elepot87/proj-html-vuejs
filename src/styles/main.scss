@@ -102,6 +102,8 @@ main {
           text-transform: uppercase;
           font-size: 14px;
           word-spacing: 3px;
+          display: flex;
+          align-items: center;
         }
         .subtitle::before {
           content: "";

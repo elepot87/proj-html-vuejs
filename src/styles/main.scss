@@ -503,12 +503,11 @@ main {
       background-color: $primary-color;
       flex-direction: column;
       width: 36%;
-      padding: 90px;
+      padding: 88px;
       color: $secondary-color;
 
       .info-plate {
         justify-content: space-between;
-        align-items: center;
         .name-plate {
           font-size: $highlighted-plate;
           font-family: $hero-font-title;
@@ -516,6 +515,7 @@ main {
         }
         .price {
           font-family: $button-font;
+          line-height: 3.2;
         }
       }
       .separator {
@@ -526,9 +526,6 @@ main {
         font-family: $primary-font;
         color: $third-color;
         margin-bottom: 50px;
-      }
-      .button-main {
-        margin-bottom: 20px;
       }
     }
   }

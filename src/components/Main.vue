@@ -410,7 +410,7 @@
     <section class="highlight-plate">
       <div class="container-info d-flex justify-content-center">
         <div class="info-plate d-flex">
-          <h3 class="name-plate">braised alone</h3>
+          <h3 class="name-plate">braised abalone</h3>
           <div class="price">$52</div>
         </div>
         <div class="separator"></div>

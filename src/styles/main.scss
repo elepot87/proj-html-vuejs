@@ -408,6 +408,7 @@ main {
   // Section Takeout
   .takeout {
     .image-cta {
+      margin-top: 0;
       .image-cta-left {
         width: 60%;
         background-image: url(../assets/images/slider72x-scaled.jpg);
@@ -421,6 +422,32 @@ main {
           width: 250px;
         }
       }
+    }
+  }
+  // Section Menu
+  .menu {
+    padding: 190px 115px;
+    height: 1430px;
+    .col-left,
+    .col-center,
+    .col-right {
+      width: calc(100% / 3);
+    }
+    .col-left,
+    .col-right {
+      background-color: $third-color;
+    }
+    .col-center {
+      background-image: linear-gradient(
+          rgb(3, 3, 3) 27%,
+          rgba(3, 3, 3, 0.2) 100%
+        ),
+        url(../assets/images/misc22x.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      bottom: 50px;
     }
   }
 }

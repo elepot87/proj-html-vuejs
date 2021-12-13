@@ -172,7 +172,7 @@
         </div>
       </div>
     </section>
-    <!-- Sezione 5 Immagine full width -->
+    <!-- Section 5 Immagine full width -->
     <section
       class="img-full-width d-flex justify-content-center align-items-end"
     >
@@ -233,7 +233,7 @@
         </div>
       </div>
     </section>
-    <!-- Sezione Take out -->
+    <!-- Section 7 Take out -->
     <section class="takeout">
       <section class="image-cta d-flex">
         <div class="image-cta-left"></div>
@@ -256,6 +256,12 @@
           </div>
         </div>
       </section>
+    </section>
+    <!-- Section 8 Menu -->
+    <section class="menu d-flex">
+      <div class="col-left">prova</div>
+      <div class="col-center">prova</div>
+      <div class="col-right">prova</div>
     </section>
   </main>
 </template>

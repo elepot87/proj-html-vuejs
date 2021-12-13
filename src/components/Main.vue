@@ -261,7 +261,7 @@
     <section class="menu d-flex">
       <!-- Col sx -->
       <div class="col-left">
-        <h3 class="title-menu">HORS D’OEUVRES</h3>
+        <h3 class="title-menu">hors d'oeuvres</h3>
         <!-- Lista piatti -->
         <ul class="menu-list">
           <!-- Menu item -->
@@ -278,34 +278,32 @@
           <!-- Menu item -->
           <li class="menu-item">
             <div class="main-info">
-              <h4 class="plate-name">AHI SALMON NIGIRI</h4>
-              <div class="price">$48</div>
+              <h4 class="plate-name">umi masu salad</h4>
+              <div class="price">$21</div>
             </div>
             <p class="description">
-              Eget vulputate vitae quis rutrum blandit sed. Quam nulla sit
-              lacinia.
+              Mollis ornare sit sapien, sodales. Cursus duis proin semper
+              quisque.
             </p>
           </li>
           <!-- Menu item -->
           <li class="menu-item">
             <div class="main-info">
-              <h4 class="plate-name">AHI SALMON NIGIRI</h4>
-              <div class="price">$48</div>
+              <h4 class="plate-name">temaki with crab</h4>
+              <div class="price">$32</div>
             </div>
             <p class="description">
-              Eget vulputate vitae quis rutrum blandit sed. Quam nulla sit
-              lacinia.
+              Ac vel, risus ornare senectus placerat duis amet dictumst tellus.
             </p>
           </li>
           <!-- Menu item -->
           <li class="menu-item">
             <div class="main-info">
-              <h4 class="plate-name">AHI SALMON NIGIRI</h4>
-              <div class="price">$48</div>
+              <h4 class="plate-name">california rolls</h4>
+              <div class="price">$22</div>
             </div>
             <p class="description">
-              Eget vulputate vitae quis rutrum blandit sed. Quam nulla sit
-              lacinia.
+              Ac vel, risus ornare senectus placerat duis amet dictumst tellus.
             </p>
           </li>
         </ul>
@@ -313,7 +311,53 @@
       <!-- Col center -->
       <div class="col-center">prova</div>
       <!-- Col-right -->
-      <div class="col-right">prova</div>
+      <div class="col-right">
+        <h3 class="title-menu">desserts</h3>
+        <!-- Lista piatti -->
+        <ul class="menu-list">
+          <!-- Menu item -->
+          <li class="menu-item">
+            <div class="main-info">
+              <h4 class="plate-name">chocolate ball cake</h4>
+              <div class="price">$13</div>
+            </div>
+            <p class="description">
+              In pellentesque in felis massa vehicula. In sed euismod ut.
+            </p>
+          </li>
+          <!-- Menu item -->
+          <li class="menu-item">
+            <div class="main-info">
+              <h4 class="plate-name">lime pie with crust</h4>
+              <div class="price">$14</div>
+            </div>
+            <p class="description">
+              Mollis ornare sit sapien, sodales. Cursus duis proin semper
+              quisque.
+            </p>
+          </li>
+          <!-- Menu item -->
+          <li class="menu-item">
+            <div class="main-info">
+              <h4 class="plate-name">raspberry pear cake</h4>
+              <div class="price">$18</div>
+            </div>
+            <p class="description">
+              Eget vulputate vitae quis rutrum blandit sed. Quam nulla sit.
+            </p>
+          </li>
+          <!-- Menu item -->
+          <li class="menu-item">
+            <div class="main-info">
+              <h4 class="plate-name">caf&eacute; au lat</h4>
+              <div class="price">$6</div>
+            </div>
+            <p class="description">
+              Eget vulputate vitae quis rutrum blandit sed. Quam nulla sit.
+            </p>
+          </li>
+        </ul>
+      </div>
     </section>
   </main>
 </template>

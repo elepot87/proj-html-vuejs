@@ -440,6 +440,7 @@ main {
         font-size: $title-menu;
         font-family: $hero-font-title;
         margin-bottom: 70px;
+        text-transform: capitalize;
       }
       .menu-list {
         list-style: none;
